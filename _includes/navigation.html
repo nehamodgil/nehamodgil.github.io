@@ -27,9 +27,15 @@
 
           <!-- Scroll to section for each page in index -->
           {% for p in site.pages_list %}
+            {% if p[1] == "resume" %}
+            <li>
+              <a class="no-focus" href="/resume/resume.html" target="_blank"> Resume </a>
+            </li>
+            {% else %}
             <li>
               <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
             </li>
+            {% endif %}
           {% endfor %}
 
         {% else %}

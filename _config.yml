@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Hi, I’am Neha Sharma, M.S. in Computer Science with expertise in Data science and Software Engineering"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpeg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -196,6 +196,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Projects: 'timeline'
+  Resume: 'resume'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
